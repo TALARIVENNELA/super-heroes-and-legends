@@ -1,0 +1,628 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    background-color: #111;
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+}
+body{
+    margin: 0px;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+header .logo {
+    font-size: 28px;
+    color: #ffcc00;
+}
+
+
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 30px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #ff0000;
+}
+
+/* Smooth scroll */
+html {
+    scroll-behavior: smooth;
+}
+
+/* Global Reset */
+*{
+    box-sizing: border-box;
+}
+body {
+    background-color: #000;
+    margin: 0;
+    font-family:'Times New Roman', Times, serif;
+    text-align: center;
+    line-height: 1.6;
+    color: white;
+}
+
+h1 {
+    color: yellow;
+    /* font-style: italic; */
+}
+
+h2 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: xx-large;
+    color: black;
+}
+
+h3 {
+    font-family:'Times New Roman', Times, serif;
+    font-size: xx-large;
+    color: red;
+}
+
+.subtitle {
+    font-size: xx-large;
+    color: red;
+    font-style: italic;
+    margin-bottom: 10px;
+}
+
+hr {
+    width: 150px;
+    border: 2px solid white;
+    margin: 10px auto 40px auto;
+}
+
+.nav-buttons {
+    margin: 20px 0;
+}
+
+.nav-buttons a {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    margin: 0 10px;
+    padding: 10px 20px;
+    border: 2px solid white;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.nav-buttons a:hover {
+    background-color: gold;
+    color: black;
+}
+
+/* Sections */
+section {
+    min-height: 100vh;
+    padding: 10px 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Mythological Section */
+.mythological {
+    background-image: url('https://wallpaperbat.com/img/278439-yellow-things-yellow-sunset-the-free-hd-wallpaper-renkler.jpg');
+    background-size: cover;
+    background-position: center;
+    border-top: 4px solid yellow;
+    border-bottom: 4px solid #ffd700;
+    color: black;
+}
+
+/* Superheroes Section */
+.superheroes {
+    background-image: url('https://wallpaper-house.com/data/out/10/wallpaper2you_397785.jpg');
+    background-size: cover;
+    background-position: center;
+    border-bottom: 4px solid #ff4500;
+    color: black;
+}
+
+/* Grids */
+.hero-grid, .superhero-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3,1fr);
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    row-gap: 1px;
+}
+
+.hero-card img,
+.superhero-card img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+strong{
+    color: red;
+    font-size: large;
+}
+
+.overlay {
+    background: rgba(255, 255, 255, 0.85);
+    color: black;
+    padding: 15px;
+    margin-top: 10px;
+    border-radius: 10px;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.hero-card:hover .overlay,
+.superhero-card:hover .overlay {
+    opacity: 1;
+}
+
+/* Comparison Section */
+.comparison {
+    background-image: url("https://t3.ftcdn.net/jpg/03/23/23/82/360_F_323238296_mKr6Vs1xxjCKgTzzqOD67C6TfMZwF2Er.jpg");
+    background-size: cover;
+    background-position: center;
+    padding: 60px 20px;
+    background-color: chocolate;
+}
+
+.comparison h4 {
+    font-size: 40px;
+    font-weight: bold;
+    font-family: fantasy;
+    color: white;
+    margin-bottom: 20px;
+}
+
+table {
+    width: 80%;
+    border-collapse: collapse;
+    background-color: #000;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    margin: 0 auto;
+}
+
+.comparison th {
+    border: 3px solid gold;
+    padding: 10px 15px;
+    text-align: center;
+    font-size: 24px;
+    color: brown;
+    background-color: #222;
+}
+
+.comparison td {
+    border: 3px solid gold;
+    padding: 10px 15px;
+    text-align: center;
+    font-size: 16px;
+    color: gold;
+    background-color: #111;
+}
+   /*tabview*/
+
+   /* Smooth scroll */
+@media screen and (max-width:720px) {
+    
+   
+html {
+    scroll-behavior: smooth;
+}
+
+/* Global Reset */
+*{
+    box-sizing: border-box;
+}
+body {
+    background-color: #000;
+    margin: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    line-height: 1.6;
+    color: white;
+}
+
+h1 {
+    color: yellow;
+    font-style: italic;
+}
+
+h2 {
+    font-family: fantasy;
+    font-size: xx-large;
+    color: black;
+}
+
+h3 {
+    font-family: fantasy;
+    font-size: xx-large;
+    color: red;
+}
+
+.subtitle {
+    font-size: xx-large;
+    color: red;
+    font-style: italic;
+    margin-bottom: 10px;
+}
+
+hr {
+    width: 150px;
+    border: 2px solid white;
+    margin: 10px auto 40px auto;
+}
+
+.nav-buttons {
+    margin: 20px 0;
+}
+
+.nav-buttons a {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    margin: 0 10px;
+    padding: 10px 20px;
+    border: 2px solid white;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.nav-buttons a:hover {
+    background-color: gold;
+    color: black;
+}
+
+/* Sections */
+section {
+    min-height: 100vh;
+    padding: 10px 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Mythological Section */
+.mythological {
+    background-image: url('https://wallpaperbat.com/img/278439-yellow-things-yellow-sunset-the-free-hd-wallpaper-renkler.jpg');
+    background-size: cover;
+    background-position: center;
+    border-top: 4px solid yellow;
+    border-bottom: 4px solid #ffd700;
+    color: black;
+}
+
+/* Superheroes Section */
+.superheroes {
+    background-image: url('https://wallpaper-house.com/data/out/10/wallpaper2you_397785.jpg');
+    background-size: cover;
+    background-position: center;
+    border-bottom: 4px solid #ff4500;
+    color: black;
+}
+
+/* Grids */
+.hero-grid, .superhero-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3,1fr);
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    row-gap: 1px;
+}
+
+.hero-card img,
+.superhero-card img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+strong{
+    color: red;
+    font-size: large;
+}
+
+.overlay {
+    background: rgba(255, 255, 255, 0.85);
+    color: black;
+    padding: 15px;
+    margin-top: 10px;
+    border-radius: 10px;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.hero-card:hover .overlay,
+.superhero-card:hover .overlay {
+    opacity: 1;
+}
+
+/* Comparison Section */
+.comparison {
+    background-image: url("https://t3.ftcdn.net/jpg/03/23/23/82/360_F_323238296_mKr6Vs1xxjCKgTzzqOD67C6TfMZwF2Er.jpg");
+    background-size: cover;
+    background-position: center;
+    padding: 60px 20px;
+    background-color: chocolate;
+}
+
+.comparison h4 {
+    font-size: 40px;
+    font-weight: bold;
+    font-family:'Times New Roman', Times, serif;
+    color: white;
+    margin-bottom: 20px;
+}
+
+table {
+    width: 80%;
+    border-collapse: collapse;
+    background-color: #000;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    margin: 0 auto;
+}
+
+.comparison th {
+    border: 3px solid gold;
+    padding: 10px 15px;
+    text-align: center;
+    font-size: 24px;
+    color: brown;
+    background-color: #222;
+}
+
+.comparison td {
+    border: 3px solid gold;
+    padding: 10px 15px;
+    text-align: center;
+    font-size: 16px;
+    color: gold;
+    background-color: #111;
+}
+ }
+   /*mobile view*/
+
+
+@media screen and (max-width:420px) {
+    
+  
+   /* Smooth scroll */
+html {
+    scroll-behavior: smooth;
+}
+
+/* Global Reset */
+*{
+    box-sizing: border-box;
+}
+body {
+    background-color: #000;
+    margin: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    line-height: 1.6;
+    color: white;
+}
+
+h1 {
+    color: yellow;
+    font-style: italic;
+}
+
+h2 {
+    font-family: fantasy;
+    font-size: xx-large;
+    color: black;
+}
+
+h3 {
+    font-family: fantasy;
+    font-size: xx-large;
+    color: red;
+}
+
+.subtitle {
+    font-size: xx-large;
+    color: red;
+    font-style: italic;
+    margin-bottom: 10px;
+}
+
+hr {
+    width: 150px;
+    border: 2px solid white;
+    margin: 10px auto 40px auto;
+}
+
+.nav-buttons {
+    margin: 20px 0;
+}
+
+.nav-buttons a {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    margin: 0 10px;
+    padding: 10px 20px;
+    border: 2px solid white;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.nav-buttons a:hover {
+    background-color: gold;
+    color: black;
+}
+
+/* Sections */
+section {
+    min-height: 100vh;
+    padding: 10px 10px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    
+}
+
+/* Mythological Section */
+.mythological {
+    background-image: url('https://wallpaperbat.com/img/278439-yellow-things-yellow-sunset-the-free-hd-wallpaper-renkler.jpg');
+    background-size: cover;
+    background-position: center;
+    border-top: 4px solid yellow;
+    border-bottom: 4px solid #ffd700;
+    color: black;
+}
+
+/* Superheroes Section */
+.superheroes {
+    background-image: url('https://wallpaper-house.com/data/out/10/wallpaper2you_397785.jpg');
+    background-size: cover;
+    background-position: center;
+    border-bottom: 4px solid #ff4500;
+    color: black;
+}
+
+/* Grids */
+.hero-grid, .superhero-grid {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(9,1fr);
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    row-gap: 1px;
+}
+
+.hero-card img,
+.superhero-card img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+strong{
+    color: red;
+    font-size: large;
+}
+
+.overlay {
+    background: rgba(255, 255, 255, 0.85);
+    color: black;
+    padding: 15px;
+    margin-top: 10px;
+    border-radius: 10px;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.hero-card:hover .overlay,
+.superhero-card:hover .overlay {
+    opacity: 1;
+}
+
+/* Comparison Section */
+.comparison {
+    background-image: url("https://t3.ftcdn.net/jpg/03/23/23/82/360_F_323238296_mKr6Vs1xxjCKgTzzqOD67C6TfMZwF2Er.jpg");
+    background-size: cover;
+    background-position: center;
+    padding: 60px 20px;
+    background-color: chocolate;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.comparison h4 {
+    font-size: 40px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    margin-bottom: 20px;
+}
+table,th,td,tr{
+    display: block;
+}
+
+table {
+    width: 80%;
+    border-collapse: collapse;
+    background-color: #000;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    margin: 0 auto;
+}
+
+.comparison th {
+    border: 3px solid gold;
+    padding: 10px 15px;
+    text-align: center;
+    font-size: 24px;
+    color: brown;
+    background-color: #222;
+    word-wrap: break-word;
+    position: relative;
+}
+
+.comparison td {
+    border: 3px solid gold;
+    padding: 10px 15px;
+    text-align: center;
+    font-size: 16px;
+    color: gold;
+    background-color: #111;
+    word-wrap: break-word;
+    position: relative;
+}
+
+.hero-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 4 cards in a row */
+    gap: 25px;
+    padding: 50px 10%;
+}
+
+.hero-card {
+    background-color: #1a1a1a;
+    padding: 20px;
+    border-radius: 15px;
+    text-align: center;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.hero-card img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.hero-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0,0,0,0.6);
+}
+
+.card h3 {
+    margin-top: 10px;
+    color: #ffcc00;
+}
+}
+footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #111;
+    color: #fff;
+    font-size: 16px;
+}

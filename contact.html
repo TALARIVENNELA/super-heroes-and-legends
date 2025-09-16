@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Join the Hero Club</title>
+  
+  <!-- Font Awesome for icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+  <style>
+   header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    background-color: #111;
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+}
+body{
+    margin: 0px;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+header .logo {
+    font-size: 28px;
+    color: #ffcc00;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 30px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #ff0000;
+}
+body{
+    margin: 0px;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+header .logo {
+    font-size: 28px;
+    color: #ffcc00;
+}
+
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: url('picture.jpg') no-repeat center center/cover;
+    }
+
+    .overlay {
+      background: rgba(0, 0, 0, 0.75);
+      min-height: 100vh;
+      padding: 60px 20px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .heading {
+      text-align: center;
+      margin-bottom: 50px;
+      color: white;
+    }
+
+    .heading h1 {
+      font-size: 32px;
+      margin-bottom: 10px;
+    }
+
+    .heading p {
+      font-size: 14px;
+      max-width: 600px;
+      margin: auto;
+      color: #ccc;
+    }
+
+    .container {
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+      gap: 60px;
+      flex-wrap: wrap;
+      width: 100%;
+      max-width: 1000px;
+    }
+
+    /* Left Info Section */
+    .contact-info {
+      flex: 1;
+      min-width: 280px;
+      color: white;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+    }
+
+    .info-item {
+      display: flex;
+      align-items: center;
+      margin-bottom: 40px;
+    }
+
+    .info-icon {
+      width: 55px;
+      height: 55px;
+      border-radius: 50%;
+      background: #00bcd4;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 22px;
+      margin-right: 18px;
+      color: white;
+      transition: all 0.3s ease;
+    }
+
+    /* Hover effect for icons */
+    .info-icon:hover {
+      background: yellow; /* Red on hover */
+      transform: scale(1.2); /* Slight enlarge */
+    }
+
+    .info-text {
+      font-size: 15px;
+      line-height: 1.5;
+    }
+
+    .info-text strong {
+      display: block;
+      margin-bottom: 3px;
+      color: #00bcd4;
+    }
+
+    /* Right Form Section */
+    .contact-form {
+      flex: 1;
+      min-width: 340px;
+      background: white;
+      color: black;
+      padding: 35px;
+      border-radius: 12px;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.5);
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+    }
+
+    .contact-form h3 {
+      margin-bottom: 25px;
+      font-size: 22px;
+      text-align: center;
+      color: #333;
+    }
+
+    .contact-form input,
+    .contact-form select,
+    .contact-form textarea {
+      width: 100%;
+      padding: 12px;
+      margin: 14px 0;
+      border: none;
+      border-bottom: 2px solid #ccc;
+      font-size: 14px;
+      outline: none;
+      background: transparent;
+      transition: border-color 0.3s ease;
+    }
+
+    .contact-form input:focus,
+    .contact-form select:focus,
+    .contact-form textarea:focus {
+      border-bottom: 2px solid #e53935;
+    }
+
+    .contact-form button {
+      width: 100%;
+      padding: 12px;
+      background: #e53935; /* Red */
+      border: none;
+      color: white;
+      font-size: 16px;
+      border-radius: 6px;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+
+    .contact-form button:hover {
+      background: goldenrod; /* Golden hover */
+      transform: scale(1.05);
+    }
+
+    /* Responsive */
+    @media (max-width: 768px) {
+      .container {
+        flex-direction: column;
+        align-items: center;
+      }
+      .contact-info {
+        text-align: center;
+      }
+      .info-item {
+        justify-content: center;
+      }
+    }
+    footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #111;
+    color: #fff;
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+  </style>
+</head>
+<body>
+   <header>
+    <div class="logo"> 🐦‍🔥 Legends & Heroes</div>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="heroes.html">Heroes</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+</header>  
+<section>  
+
+  <div class="overlay">
+    <!-- Heading -->
+    <div class="heading">
+      <h1>Contact Us</h1>
+      <p>Want to become part of our hero family?<br>
+        "contact us today for queries, feedback, or to join the mission"
+      </p>
+    </div>
+
+    <!-- Layout -->
+    <div class="container">
+      <!-- Left Info -->
+      <div class="contact-info">
+        <div class="info-item">
+          <div class="info-icon"><i class="fa-solid fa-location-dot"></i></div>
+          <div class="info-text">
+            <strong>Address</strong>
+            Marthahalli, Bangalore
+          </div>
+        </div>
+        <div class="info-item">
+          <div class="info-icon"><i class="fa-solid fa-phone"></i></div>
+          <div class="info-text">
+            <strong>Phone</strong>
+            +91 98765 43210
+          </div>
+        </div>
+        <div class="info-item">
+          <div class="info-icon"><i class="fa-solid fa-envelope"></i></div>
+          <div class="info-text">
+            <strong>Email</strong>
+            project@email.com
+          </div>
+        </div>
+      </div>
+<!-- Right Form -->
+<div class="contact-form">
+  <h3>Join The Hero Club</h3>
+  <form onsubmit="showPopup(event)">
+    <input type="text" placeholder="Full Name" required>
+    <input type="email" placeholder="Email" required>
+    <select required>
+      <option value="" disabled selected>Choose your Favorite Hero</option>
+      <option>Iron Man</option>
+      <option>Spider-Man</option>
+      <option>Wonder Woman</option>
+      <option>Thor</option>
+      <option>Other</option>
+    </select>
+    <textarea rows="4" placeholder="Your Message..." required></textarea>
+    <button type="submit">Submit</button>
+  </form>
+</div>
+
+<script>
+function showPopup(event) {
+  event.preventDefault(); // Stops form from refreshing the page
+  alert("✅ Thank you for joining the Hero Club! 🚀");
+}
+</script>
+</section>
+<footer>
+    <p> Superheroes & Mythology | Designed by Team</p>
+</footer>

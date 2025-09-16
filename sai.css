@@ -1,0 +1,109 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    background-color: #111;
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+    font-family: 'Times New Roman', Times, serif;
+}
+body{
+    margin: 0px;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+header .logo {
+    font-size: 28px;
+    color: #ffcc00;
+}
+
+
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 30px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #ff0000;
+}
+body {
+  font-family: Arial, sans-serif;
+  background-color:black;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  color: #96af24;
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: 18px;
+  color:white;
+  margin-bottom: 15px;
+}
+
+.team-heroes {
+  margin-top: 30px;
+  padding: 15px;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.team-heroes h2 {
+  text-align: center;
+  color: #e74c3c;
+  margin-bottom: 15px;
+}
+
+.team-heroes ul {
+  list-style: none;
+  padding: 0;
+}
+
+.team-heroes li {
+  background: #ecf0f1;
+  margin: 8px 0;
+  padding: 10px;
+  border-left: 5px solid #3498db;
+  font-size: 17px;
+  transition: 0.3s ease;
+}
+
+
+.team-heroes li:hover {
+  background:yellow;
+  color: black;
+  cursor: pointer;
+  transform: translateX(5px);
+}
+footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #111;
+    color: #fff;
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
